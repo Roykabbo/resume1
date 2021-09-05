@@ -2,267 +2,157 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        body{
-            background-color: black;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-decoration: none;
-            color: black;
-        }
-        *{
-            text-decoration: none;
-            list-style: none;
-            color: white;
-            padding: 0px;
-            margin: 0px;
-        }
-        header{
-            background-color: rgb(65, 64, 64);
-            padding: 10px;
-            animation-name: header;
-            
-        }
-        @keyframes header{
-            0%{visibility: hidden;position: -100px;}
-        }
-        .container{
-            width: 80%;
-            margin: auto;
-            
-        }
-        .btn{
-            padding: 10px;
-            background-color: black ;
-            color: white;
-        }
-        .btn:hover{
-            background-color: #FFFFFF;
-            color: black;
-        }
-        .header-content{
-            display: flex;
-        }
-        .logo{
-            flex-basis: 30%;
-            align-self: center;
-        }
-        
-        .nav{
-            flex-basis: 70%;
-            text-align: right;
-            align-self: center;
-            
-        }
-        ul li{
-            display: inline-block;
-            padding-right: 30px;
-        }
-
-        section.showcase{
-            height: 600px;
-           
-            background-image: url(1.jpg);
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            
-                display: grid;
-                justify-items: center;
-                align-items: center;
-            }
-            #fau{
-               
-                display: grid;
-                justify-items: center;
-                align-items: center;
-            }
-            .showcase-content{
-               
-                display: grid;
-                justify-items: center;
-                align-items: center;
-            }
-        .showcase-content a{
-            margin-top: 50px;
-            
-        }
-        #showcase-h{
-            font-size: 4em;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-
-        }
-        #showcase-p{
-            font-size: 1.1em;
-            letter-spacing: 1px;
-            word-spacing: 0.1em;
-            text-align: center;
-        }
-
-        #about{
-            display: grid;
-            justify-items: center;
-            align-items: center;
-            height:600px;
-        }
-        .about-content{
-            display: grid;
-                justify-items: center;
-                align-items: center;
-        }
-        .details{
-            width: 70%;
-            display: grid;
-            grid-template-columns: 30% 70%;
-            grid-row-gap: 1.5em;
-            grid-column-gap: 1em;
-            
-            
-        }
-        .details>div:nth-child(odd){
-            background-color:  rgb(65, 64, 64);
-            text-align: right;
-        }
-        .details>div:nth-child(even){
-            text-align: center;
-        }
-        .details > div {
-            padding: 10px;
-            background-color:rgb(73, 65, 65);
-            color: white;
-        }
-        h3{
-            font-size: 3em;
-            margin-bottom: 50px;
-        }
-        #me{
-            color: rgb(85, 26, 26);
-        }
-        #education{
-            display: grid;
-            justify-items: center;
-            align-items: center;
-            height: 650px;
-            background-color: rgb(52, 54, 66); 
-            overflow: hidden;
-        }
-        .education-content{
-            display: grid;
-            grid-template-columns: auto auto;
-            grid-gap: 2em;;
-        }
-        .education-content>div:last-child{
-            margin: 0 auto;
-            color: black;
-        }
-        .eduitems{
-            border: 1px solid white;
-            padding: 50px;
-            text-align: center;
-            background-color:rgb(65, 64, 64); 
-            box-shadow: -10px 10px 10px rgb(78, 69, 69);
-        }
-        h4{
-            color: aquamarine;
-            font-size: 2em;
-            padding-bottom: 5px;
-            margin-bottom: 5px;
-            border-bottom: 3px solid white;
-            display: inline-block;
-        }
-
-        footer{
-            height: 80px;
-            background-color: rgb(65, 64, 64);
-            display: grid;
-            justify-items: center;
-            align-items: center;
-        }
-        footer p{
-            text-align: center;
-        }
-    </style>
+    <title>Globing | Copy Of Theme Forest</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="educator.png" type="image/x-icon">
 </head>
 <body>
+
+    <!-- Header Section -->
+
     <header>
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <img src="logo.png" alt="" srcset="" >
-                </div>
-
-
-                <div class="nav">
-                    <ul>
-                        <li><a href="#about">about</a></li>
-                        <li><a href="#education">education</a></li>
-                        <li><a href="#footer">footer</a></li>
-                    </ul>
-                 </div>
+        <div class="container float-left">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Your Logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav">
+                <ul class="float-left">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Features">Features</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
             </div>
         </div>
     </header>
-    <section class="showcase">
-        <div class="container">
-            <div id="fau">
-            <div class="showcase-content">
-                <h1 id="showcase-h">Welcome!</h1>
-                <p id="showcase-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, reprehenderit.</p>
-                <a href="#" class="btn" >Read More</a>
+
+<!-- Home -->
+
+<section id="Home">
+    <div class="container">
+       <div class="allcenter">
+           <div>
+                <h1>Need A Web Site?</h1>
+                <h2>Don't Worry!! I am Here</h2>
+                <input type="button" value="Email Me">
+           </div>
+       </div>
+    </div>
+</section>
+
+    <!-- About -->
+
+    <section id="About">
+        <div class="sectiontitle">
+            <h2>
+                About Me
+            </h2>
+            <div class="bottomline"></div>
+        </div>
+        <div class="container hero">
+            <div class="hero-text">
+                <h3>Hi I'm <span class="highlighted">Soumik Roy Kabbo</span></h3>
+                <h1>A Web Developper</h1>
             </div>
+            <div class="hero-image">
+                <img src="kabbo.jpg" alt="" srcset="">
             </div>
         </div>
     </section>
-    <section class="about" id="about">
+    
+    <section id="Experience">
         <div class="container">
-            <div class="about-content">
-                <h3>About <span id="me">Me</span></h3>
-                <div class="details">
-                    <div class="details-items">Name</div>
-                    <div class="details-items">Soumik Roy Kabbo</div>
-                    <div class="details-items">Class</div>
-                    <div class="details-items">10</div>
-                    <div class="details-items">Group</div>
-                    <div class="details-items">Science</div>
-                    <div class="details-items">Roll No</div>
-                    <div class="details-items">01</div>
-                    <div class="details-items">School</div>
-                    <div class="details-items">Fulbari Adarsho High School</div>
-                    <div class="details-items">Hobby</div>
-                    <div class="details-items">CODING</div>
+            <div class="sectiontitle">
+                <h2>
+                    My Experience
+                </h2>
+                <div class="bottomline"></div>
+            </div>   
+            <div class="cards">
+                <div class="card">
+                    <div class="crdheader">
+                        <img src="programming.svg" alt="" srcset="">
+                    </div>
+                    <h3>Programming</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime numquam, commodi ab delectus dignissimos dolorem.
+                </div>
+                <div class="card">
+                    <div class="crdheader">
+                        <img src="programming.svg" alt="" srcset="">
+                    </div>
+                    <h3>Programming</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime numquam, commodi ab delectus dignissimos dolorem.
+                </div>
+                <div class="card">
+                    <div class="crdheader">
+                        <img src="programming.svg" alt="" srcset="">
+                    </div>
+                    <h3>Programming</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime numquam, commodi ab delectus dignissimos dolorem.
                 </div>
             </div>
         </div>
     </section>
-    <section class="education" id="education">
-            <h3>My <span id="me">Education</span></h3>
-        <div class="education-content">
-                
-            <div class="eduitems">
-                <h4>PSC</h4>
-                <p>I Passed PSC In 2016</p>
+    <section id="Features">
+        <div class="container">
+            <div class="sectiontitle">
+                <h2>
+                    Features
+                </h2>
+                <div class="bottomline"></div>
             </div>
-            <div class="eduitems">
-                <h4>JSC</h4>
-                <p>I Pssed JSC In 2019</p>
+        <div class="fitems">
+            <div class="fitem">
+                <div class="crdheader">
+                    <img src="alarm-clock.svg" alt="" srcset="">
+                </div>
+                <h3>Best Pricing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, placeat.</p>
             </div>
-            <div class="eduitems">
-                <h4>HTML</h4>
-                <P>I Know Ins And Out Of HTML5</P>
+            <div class="fitem">
+                <div class="crdheader">
+                    <img src="alarm-clock.svg" alt="" srcset="">
+                </div>
+                <h3>Best Pricing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, placeat.</p>
             </div>
-            <div class="eduitems">
-                    <h4>CSS</h4>
-                    <P>I Know Ins And Out Of CSS</P>
+            <div class="fitem">
+                <div class="crdheader">
+                    <img src="alarm-clock.svg" alt="" srcset="">
+                </div>
+                <h3>Best Pricing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, placeat.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="container">
+            <div class="sectiontitle">
+                <h2>
+                    Contact
+                </h2>
+                <div class="bottomline"></div>
+            </div>
+            <div class="c-content">
+                <div class="form">
+                    <form action="" method="post">
+                        <label for="">Name:</label>
+                        <input type="text">
+                        <label for="">Message</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </form>
+                </div>
+                <div class="img">
+                    <img src="contact.svg" alt="" srcset="">
+                </div>
             </div>
         </div>
     </section>
-    <footer id="footer">
-        <div class="container">
-            <p>Copy Rights Reserved &copy; Soumik Roy Kabbo</p>
-        </div>
-    </footer>
 </body>
 </html>
